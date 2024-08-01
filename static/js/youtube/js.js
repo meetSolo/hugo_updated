@@ -1,9 +1,7 @@
 class LiteYTEmbed extends HTMLElement {
     connectedCallback() {
         this.videoId = this.getAttribute('videoid');
-
         let playBtnEl = this.querySelector('.lty-playbtn');
-        // A label for the button takes priority over a [playlabel] attribute on the custom-element
         this.playLabel = (playBtnEl && playBtnEl.textContent.trim()) || this.getAttribute('playlabel') || 'Play';
 
         this.dataset.title = this.getAttribute('title') || "";
