@@ -1,0 +1,75 @@
+baseURL: 
+languageCode: pl-PL
+title: Mieszkańcy BGW
+theme: ["hugo-embed-pdf-shortcode","PaperMod"]
+enableInlineShortcodes : true
+languages:
+  pl:
+    languageCode: pl-PL
+    languageDirection: ltr
+    languageName: Polski
+    weight: 1
+defaultContentLanguage: pl
+defaultContentLanguageInSubdir: false
+
+menu:
+      main:
+        - name: Konferencje
+          url: konferencje
+          weight: 5
+        - name: Tygodniówka
+          url: tygodniowka/
+          weight: 10
+        - name: Kalendarium
+          url: kalendarium/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search       
+
+params:
+  typedtext: <div><p><b>Nasza ulica to zabytkowe kamienice</b>, z przełomu XIX i XX wieku, posadowione na palach.<br><br>Od 8 lat <b>władze Gdańska próbują przeforsować najmniej korzystny wariant</b> trasy tramwajowej, który <b>budzi protesty społeczne w większości dzielnic oraz grozi katastrofą budowlaną</b><br></p><p>Wariant przejazdu, który <b>uzyskał wyższą ocenę</b> w raporcie środowiskowym <b>został wycofany w 2019r. przez władze Gdańska ze względów pozamerytorycznych</b>.<br><br /><b>Oczekujemy realnych konsultacji społecznych i dialogu.</b><br /><br/>O to Archiwum naszego Protestu!<br/><small><i>~ Mieszkańcy Boh. Getta Warszawskiego</i></small></p></div>
+  coverFrontGallery: [
+    '/galeria/slide_front_1225.webp',
+    '/galeria/slide_front_2.webp',
+    '/galeria/slide_front_11.webp'
+   
+    ]
+  GalleryIntroHeader: Galeria Protestu
+  GalleryIntroText: Jako mieszkańcy terenów, przez które trasa ma przebiegać, staramy się na wszelkie sposoby wpłynąć na zmianę polityki władz i <b>realizację projektu w prostym i logicznym wariancie</b>. Nasza oddolna i społeczna akcja banerowa jest kolejną formą zwrócenia uwagi <b>na potrzebę dialogu i realnych konsultacji społecznych</b>.
+  GalleryIntroPhotos: [
+    '/galeria/slide_front_12.webp',
+    '/galeria/slide_front_2.webp',
+    '/galeria/slide_front_11.webp'
+  ]
+  GalleryPhotos: [
+    '/galeria/slide_front_12.webp',
+    '/galeria/slide_front_2.webp',
+    '/galeria/slide_front_122.webp'
+  ]
+  MovieIntroTop: ngb2eX5Xd0A
+  MovieIntroHeader: Kłamstwa, insynuacje i półprawdy Prezydenta Grzelaka
+  MovieIntroText: <p>17 maja 2024 wiceprezydent miasta Gdańska, Piotr Grzelak, udzielił Radiu Gdańsk wywiadu, podczas którego <b>poświęcił nam sporo czasu. Specjalnie piszemy nam, a nie sprawie tramwajowej</b>, ponieważ wypowiedzi wiceprezydenta skupiały się na <b>personalnych atakach i w żadnym stopniu nie były merytorycznie</b>.</p><p><br/><b>Postanowiliśmy nagrać odpowiedź aby rozprawić się z półprawdami i kłamstwami prezydenta miasta.</b></p>
+  MovieYtId: kbpmvPrDVDA
+  MovieIntroLink: /kalendarium/2024-05-27_miasto_ukrywa_dokumentacje/
+  FrontManifestHeader: Protest 
+  FrontManifest: <p>Pierwsze informacje na temat nowej trasy komunikacyjnej tzw. Nowej Politechnicznej, pojawiły się w czerwcu 2014 roku. <czytaj artykuł> W założeniu władz miasta budowa tramwaju miała być <b>szybką inwestycją przeprowadzoną przy biernej postawie nieświadomych zagrożeń mieszkańców</b>. Spotkało się to jednak z protestami społecznymi w dzielnicach na planowanej trasie przejazdu.</p><p>Wybrany przez miasto wariant trasy omija część rezerwy terenowej i slalomem wjeżdża w ulicę Bohaterów Getta Warszawskiego, gdzie znajdują się <b>zabytkowe kamienice posadowione na palach</b>. Miasto nie widzi żadnego zagrożenia, w tym, że ok. <b>50-tonowe wagony miałyby przejeżdżać w odległości ok 4 m kamienic</b>, -co mniej niż kilka minut!</p><p><b>Drugi wariant</b> tej inwestycji, mimo że uzyskał wyższą ocenę w raporcie środowiskowym, został przez wiceprezydenta Alana Aleksandrowicza <b>wycofany pod koniec 2019 roku, ze względów pozamerytorycznych</b>.<p>Jako mieszkańcy terenów, przez które trasa miałaby przebiegać, staramy się o zmianę polityki władz i realizację projektu w prostym i logicznym przebiegu. Pomio wysokiego stopnia wływu na środowisko, do tej pory, mimo wielokrotnych naszych apelów, nie odbyły się konsultacje społeczne.</p><p><big>Zderzyliśmy się z bezduszną machiną Miasta Gdańsk, ale dzisiaj <b>to urzędnicy, prezydenci czy opłacani przez nich projektanci, biorą na siebie odpowiedzialność za ewentulane tragedie ludzkie i katastrofy budowlane.</big></b></p><p>Nasza walka trwa. Nie poddajemy się!<br/><small><i>~ Mieszkańcy Boh. Getta Warszawskiego</i></small></p>
+
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Od 8 lat władze Gdańska próbują przeforsować wariant nowej trasy tramwajowej z Moreny do Wrzeszcza, oficjalnie i mylnie nazywaną Nową Politechniczną lub nową linią tramwajową Gdańsk-Południe Wrzeszcz. Wariant, który budzi protesty społeczne w całej okolicy. Wzdłuż ul. Bohaterów Getta Warszawskiego znajdują się zabytkowe kamienice posadowione na palach, a 40-50-tonowe wagony miałyby przejeżdżać w odległości 4-5 m od nich, co mniej niż kilka minut. Drugi wariant tej inwestycji (przez ul. Do Studzienki), mimo że uzyskał wyższą ocenę w raporcie środowiskowym, został przez wiceprezydenta Alana Aleksandrowicza ze względów pozamerytorycznych wycofany pod koniec 2019 roku. Jako mieszkańcy terenów, przez które trasa miałaby przebiegać, staramy się z pewnymi sukcesami (m.in. zmusiliśmy władze do przeprowadzenia części badań i usunięcie zgody na utworzenie obszaru ograniczonego użytkowania), o zmianę polityki władz i realizację projektu w prostym i logicznym przebiegu. Do tej pory, mimo wielokrotnych naszych apelów, nie odbyły się konsultacje społeczne tej silnie wpływającej na środowisko inwestycji.
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  dateFormat : 02 Jan 2006
+  assets:
+    disableFingerprinting: true
+
+mainsections: ["tygodniowka", "konferencje", "kalendarium"]
+taxonomies:
+  category: categories
+  tag: tags

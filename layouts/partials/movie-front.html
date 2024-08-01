@@ -1,0 +1,29 @@
+
+<article class="free-entry b-1">
+	<div style="position: relative; padding-bottom: 56.25%; margin-bottom: 40px; height: 0; overflow: hidden;">
+	<lite-youtube videoid="{{ $.Site.Params.MovieIntroTop}}"></lite-youtube>
+    </div>
+</article>
+<article class="free-entry b-1">
+    <header class="entry-header-2">
+        <h2 class="bigger-h2">{{ $.Site.Params.MovieIntroHeader }}</h2>
+    </header>
+    <div class="post-content">
+        <p>{{ $.Site.Params.MovieIntroText |safeHTML }}</p>
+	<div style="position: relative; padding-bottom: 56.25%; margin-bottom: 40px; height: 0; overflow: hidden;">
+	<lite-youtube videoid="{{ $.Site.Params.MovieYtId}}"></lite-youtube>
+      
+    </div>
+  
+		
+    </div>
+    <footer class="entry-footer">
+	<div class="read-more">
+
+	<a class="read-more" href="{{ $.Site.Params.MovieIntroLink}}" title="Czytaj więcej" >
+	<span>Czytaj więcej</span></a>
+	</div>
+        <div class="social-icons">
+</div>
+    </footer>
+</article> 
