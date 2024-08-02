@@ -1019,3 +1019,23 @@ iframe.wait-autoplay {
 {{ end }}
 </ul>
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event) {
+    const lightbox = GLightbox({
+     
+        touchNavigation: true,
+        loop: true,
+		onOpen: () => {
+        console.log('Lightbox opened')
+    },
+        autoplayVideos: true,
+        onOpen: () => {
+            console.log('Lightbox opened')
+        },
+        beforeSlideLoad: (slide, data) => {
+            // Need to execute a script in the slide?
+            // You can do that here...
+        }
+    });
+    });
+</script>
