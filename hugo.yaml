@@ -23,7 +23,9 @@ menu:
         - name: Kalendarium
           url: kalendarium/
           weight: 10
-
+        - name: Galerie
+          url: galeria/
+          weight: 10
 outputs:
   home:
     - HTML
