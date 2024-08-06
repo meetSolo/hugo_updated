@@ -10,4 +10,4 @@ draft = false
 
 {{< gallery path="zalanie-16-07-2024" title="Zalanie ulicy 16.07.2024">}}
 
-{{< gallery path="galeria-1" title="Ulica BGW" >}}
+{{< gallery path="galeria-1" title="Ulica BGW - Lato 2024" >}}
