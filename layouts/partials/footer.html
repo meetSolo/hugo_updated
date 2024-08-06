@@ -118,5 +118,33 @@
         }
     });
 </script>
-{{- end }}
-<script src="{{ .Site.BaseURL }}js/youtube/js.min.js"></script>
+{{- end }} 
+
+<script src="{{ .Site.BaseURL }}js/youtube/js.js"></script>
+<script> 
+
+if (typeof GLightbox !== 'undefined') {
+   
+ const lightbox = GLightbox({
+      touchNavigation: true,
+      loop: true,
+      onOpen: () => {
+     //   console.log('Lightbox opened')
+      },
+      autoplayVideos: true,
+      onOpen: () => {
+     //   console.log('Lightbox opened')
+      },
+      beforeSlideLoad: (slide, data) => {
+
+      }
+    });
+	  function show_more_(id) {
+    document.getElementById(id).classList.toggle("full-active");
+	  let txt = document.getElementById('span-'+id).innerText;
+  document.getElementById('span-'+id).innerText = txt == 'Zobacz więcej' ? 'Zobacz mniej' : 'Zobacz więcej';
+	}
+}
+  </script>
+
+
